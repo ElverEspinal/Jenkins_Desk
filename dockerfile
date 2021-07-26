@@ -1,4 +1,4 @@
-FROM openjdk:8u181-jdk-windowsservercore
+FROM openjdk:11.0-jre-slim
 WORKDIR /src/java
 COPY . /src/java
 ENTRYPOINT ["java","-jar", "HelloWorld.jar"]
